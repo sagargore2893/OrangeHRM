@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Demo_suite]">
+  <test name="Login_test(failed)">
+    <classes>
+      <class name="testClasses.HomePageTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="verifyLogo"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testClasses.HomePageTest -->
+      <class name="testClasses.LoginPageTest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testClasses.LoginPageTest -->
+    </classes>
+  </test> <!-- Login_test(failed) -->
+</suite> <!-- Failed suite [Demo_suite] -->
